@@ -1,0 +1,187 @@
+{
+  "OutputMode": {
+    "Path": "OpenTabletDriver.Desktop.Output.AbsoluteMode",
+    "Settings": [],
+    "Enable": true
+  },
+  "Filters": [
+    {
+      "Path": "OpenTabletDriver.Plugin.NoiseReduction",
+      "Settings": [
+        {
+          "Property": "Samples",
+          "Value": 10,
+          "HasValue": true
+        },
+        {
+          "Property": "DistanceThreshold",
+          "Value": 0.5,
+          "HasValue": true
+        }
+      ],
+      "Enable": false
+    },
+    {
+      "Path": "Chatter_Exterminator.Chatter_Exterminator_Filter",
+      "Settings": [
+        {
+          "Property": "AntichatterStrength",
+          "Value": 6.0,
+          "HasValue": true
+        }
+      ],
+      "Enable": false
+    }
+  ],
+  "AutoHook": true,
+  "LockUsableAreaDisplay": true,
+  "LockUsableAreaTablet": true,
+  "DisplayWidth": 1920.0,
+  "DisplayHeight": 1080.0,
+  "DisplayXOffset": 960.00006,
+  "DisplayYOffset": 540.0,
+  "TabletWidth": 74.5,
+  "TabletHeight": 62.5,
+  "TabletXOffset": 111.23806,
+  "TabletYOffset": 61.035713,
+  "TabletRotation": 180.0,
+  "EnableClipping": true,
+  "EnableAreaLimiting": false,
+  "LockAspectRatio": false,
+  "XSensitivity": 10.0,
+  "YSensitivity": 10.0,
+  "RelativeRotation": 0.0,
+  "RelativeResetDelay": "00:00:00.1000000",
+  "TipActivationPressure": 0.0,
+  "TipButton": null,
+  "PenButtons": [
+    {
+      "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
+      "Settings": [
+        {
+          "Property": "Property",
+          "Value": "Right",
+          "HasValue": true
+        }
+      ],
+      "Enable": true
+    },
+    {
+      "Path": "OpenTabletDriver.Desktop.Binding.MouseBinding",
+      "Settings": [
+        {
+          "Property": "Property",
+          "Value": "Left",
+          "HasValue": true
+        }
+      ],
+      "Enable": true
+    }
+  ],
+  "AuxButtons": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "Tools": [],
+  "Interpolators": [
+    {
+      "Path": "Chatter_Exterminator.AntiChatter",
+      "Settings": [
+        {
+          "Property": "AntichatterStrength",
+          "Value": 16.0,
+          "HasValue": true
+        },
+        {
+          "Property": "Frequency",
+          "Value": 1000.0,
+          "HasValue": true
+        }
+      ],
+      "Enable": false
+    },
+    {
+      "Path": "TabletDriverFilters.Hawku.Smoothing",
+      "Settings": [
+        {
+          "Property": "Latency",
+          "Value": 15.0,
+          "HasValue": true
+        },
+        {
+          "Property": "Frequency",
+          "Value": 1000.0,
+          "HasValue": true
+        }
+      ],
+      "Enable": false
+    },
+    {
+      "Path": "TabletDriverFilters.Devocub.Antichatter",
+      "Settings": [
+        {
+          "Property": "Latency",
+          "Value": 40.0,
+          "HasValue": true
+        },
+        {
+          "Property": "AntichatterStrength",
+          "Value": 5.0,
+          "HasValue": true
+        },
+        {
+          "Property": "AntichatterMultiplier",
+          "Value": 1.0,
+          "HasValue": true
+        },
+        {
+          "Property": "AntichatterOffsetX",
+          "Value": null,
+          "HasValue": false
+        },
+        {
+          "Property": "AntichatterOffsetY",
+          "Value": 1.0,
+          "HasValue": true
+        },
+        {
+          "Property": "PredictionEnabled",
+          "Value": null,
+          "HasValue": false
+        },
+        {
+          "Property": "PredictionStrength",
+          "Value": 1.0,
+          "HasValue": true
+        },
+        {
+          "Property": "PredictionSharpness",
+          "Value": 1.0,
+          "HasValue": true
+        },
+        {
+          "Property": "PredictionOffsetX",
+          "Value": 3.0,
+          "HasValue": true
+        },
+        {
+          "Property": "PredictionOffsetY",
+          "Value": 0.3,
+          "HasValue": true
+        },
+        {
+          "Property": "Frequency",
+          "Value": 500.0,
+          "HasValue": true
+        }
+      ],
+      "Enable": true
+    }
+  ]
+}
